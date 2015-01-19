@@ -67,3 +67,5 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 
 %changelog
+* Mon Jan 19 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 1.0-0
+- Add `firefox-compat.spec`
