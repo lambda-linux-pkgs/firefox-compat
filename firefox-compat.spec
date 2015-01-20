@@ -1,4 +1,4 @@
-%define _buildid .1
+%define _buildid .2
 
 #
 # https://www.mozilla.org/en-US/firefox/35.0/system-requirements/
