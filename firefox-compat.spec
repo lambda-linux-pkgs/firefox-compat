@@ -20,6 +20,7 @@
 %global dbus_glib_version 0.86
 %global libXt_version 1.1.4
 %global xorg_x11_xauth_version 1.0.2
+%global xorg_x11_server_Xvfb_version 1.13.0
 
 Name:           firefox-compat
 Version:        1.0
@@ -44,6 +45,7 @@ Requires: hicolor-icon-theme >= %{hicolor_icon_theme_version}
 Requires: dbus-glib >= %{dbus_glib_version}
 Requires: libXt >= %{libXt_version}
 Requires: xorg-x11-xauth >= %{xorg_x11_xauth_version}
+Requires: xorg-x11-server-Xvfb >= %{xorg_x11_server_Xvfb_version}
 
 %description
 For package support, please visit
