@@ -69,5 +69,8 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 
 %changelog
+* Tue Jan 20 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 1.0-0
+- Add `xorg-x11-server-Xvfb` to Requires
+
 * Mon Jan 19 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 1.0-0
 - Add `firefox-compat.spec`
